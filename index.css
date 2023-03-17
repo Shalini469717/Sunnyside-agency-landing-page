@@ -1,0 +1,265 @@
+body{
+    margin: 0;
+}
+
+/* title*/
+.title{
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: #43c0fa;
+}
+.title-image{
+    max-width: 100%;
+}
+.heading1{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 450%;
+    margin-top: 15%;
+}
+.navbar-brand{
+    color: white;
+    font-size: 200%;
+    
+}
+.links{
+    color: white;
+}
+.links:hover{
+    text-transform: uppercase;
+    background-color:#6acaf7;
+    color: white;
+}
+.navbar-brand:hover{
+    color: white;
+}
+.arrow {
+    position: absolute;
+    margin-top: 25%;
+    width: 3%;
+}
+/* grid of cards */
+
+.content-card{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    padding: 10%;
+    text-align: left;
+    border: none;
+}
+.card-heading{
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 27%, 19%);
+    font-weight: 900;
+    padding:0 10%;
+}
+.card-content{
+    margin-top: 10%;
+    margin-bottom: 0%;
+    font-weight: lighter;
+    color: hsl(232, 10%, 55%);
+    padding: 0 9% 0 9%;
+}
+.card-body{
+    padding: 0%;
+    text-align: left;
+}
+.img-card{
+    margin: 0%;
+    padding: 0%;
+    border: none;
+}
+.card-btn{
+    color: hsl(212, 27%, 19%);
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+}
+.btn-1:hover{
+    text-decoration: underline hsl(51, 100%, 49%) 50%;
+}
+.btn-2:hover {
+    text-decoration: underline hsl(7, 99%, 70%) 50%;
+}
+.img-heading{
+    margin-top: 50%;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+}
+.img-color1{
+    color : hsl(167, 40%, 24%);
+}
+.img-color2{
+    color: hsl(198, 62%, 26%);
+}
+.img-content{
+    font-family: 'Fraunces', serif;
+    font-weight: 100;
+    margin-top: 60%;
+    text-align: center;
+}
+
+/* Testimonials */
+#client-testimonials{
+    padding: 5% 12.5% 5% 12.5%;
+}
+.img-fluid{
+    border-radius: 100%;
+    width: 25%;
+}
+.test-card{
+    margin-top: 10%;
+    padding: 0 3% 0 3%;
+}
+.testimonials-heading{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 5%;
+    letter-spacing: 5px;
+    color: hsl(210, 4%, 67%);
+}
+
+.testimonials-content{
+    margin-top: 15%;
+    color:hsl(212, 27%, 19%);
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    padding: 0%;
+}
+.client-name{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    padding-top: 15%;
+}
+.client-desig{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 100;
+    color: hsl(210, 4%, 67%);
+}
+
+/*images*/
+.img-random{
+    width: 100%;
+}
+.img-card2{
+    margin: 0%;
+    padding: 0%;
+    border: none;
+}
+
+/* footer*/
+#footer{
+    background-color: hsl(168, 69%, 67%);
+    color: hsl(168, 34%, 41%);
+    text-align: center;
+    padding: 5%;
+}
+.footer-heading{
+    font-family: 'Barlow', serif;
+    font-weight: 900;
+    font-size: 200%;
+    margin: 0%;
+}
+.footer-list{
+    margin: 0%;
+    padding: 5%;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.footer-list-item{
+    display:inline;
+    padding: 5%;
+    font-family: 'Barlow', sans-serif;
+        font-weight: 900;
+    font-size: 120%;
+}
+.attribution{
+    font-size: 75%;
+}
+/* medeia queries */
+@media (min-width:100px) and (max-width:500px) {
+   
+    .navbar-brand {
+        font-size: 100%;
+    }
+
+    .navbar-toggler-icon {
+        font-size: 10px;
+    }
+    .img-color1{
+        font-size: 90%;
+    }
+    .img-color2{
+        font-size: 90%;
+    }
+    .img-content {
+        font-size: 60%;
+    }
+    
+    .card-body{
+        text-align: center;
+    }
+}
+
+@media (min-width:766px) and (max-width:1040px) {
+    .img-content {
+        font-size: 80%;
+    }
+
+}
+
+@media (min-width:766px) and (max-width:1272px) {
+    .content-card {
+        padding: 3%;
+    }
+
+    .card-heading {
+        margin-top: 10%;
+    }
+
+}
+
+@media (max-width:990px) {
+    .navbar-collapse{
+        background-color: white;
+        border-radius: 5px;
+    }
+    .links{
+        color:hsl(232, 10%, 55%);
+    }
+
+    .links:hover{
+    text-transform: uppercase;
+    background-color:hsl(51, 100%, 49%);
+    color: hsl(212, 27%, 19%);
+    
+    }
+        .heading1 {
+            font-size: 300%;
+        }
+}
+
+@media (max-width:595px) {
+    .img-random{
+        width: 100%;
+    }    
+    .img-card2{
+        width: 50%;
+        border: none;
+        padding: 0%;
+    }
+    .arrow{
+        position: absolute;
+        margin-top: 25%;
+        width: 5%;
+    }
+     .heading1 {
+        font-size: 175%;
+    }
+
+    #footer{
+        font-size: 50%;
+    }
+}

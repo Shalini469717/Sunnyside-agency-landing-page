@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap"
+    rel="stylesheet">
+  
+  <title>Sunnyside agency landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+
+  <!-- title -->
+  <div class="title">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg ps-5">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">sunnyside</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+              <a class="nav-link links rounded-pill ps-4 pe-4 " aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  links rounded-pill ps-4 pe-4" aria-current="page" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link links rounded-pill ps-4 pe-4" aria-current="page" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link links rounded-pill ps-4 pe-4" aria-current="page" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="m-0">
+      <h1 class="heading1 position-absolute start-50  translate-middle">WE ARE CREATIVES</h1>
+    </div>
+    <img src="./images/icon-arrow-down.svg" alt="" srcset="" class="  arrow position-absolute  translate-middle-x">
+    <div >
+      <img src="./images/desktop/image-header.jpg" alt="" class="w-100">
+    </div>
+  </div>
+  
+  <!-- Grid of cards-->
+  <div class="cards-grid row">
+
+    <div class="card col-lg-6 col-md-6 content-card">
+      <div class="card-body">
+        <h2 class="card-heading">Transform your brand</h2>
+        <p class="card-content">We are a full-service creative agency specializing in helping brands grow fast.
+        Engage your clients through compelling visuals that do most of the marketing for you.</p>
+        <button class="btn card-content card-btn btn-1" >LEARN MORE</button>
+      </div>
+    </div>
+
+    <div class="card col-lg-6 col-md-6 img-card">
+      <div class="card-body">
+        <img src="./images/desktop/image-transform.jpg" class = "w-100"alt="" srcset="">
+      </div>
+    </div>
+
+    <div class="card col-lg-6 col-md-6 img-card">
+      <div class="card-body">
+        <img src="./images/desktop/image-stand-out.jpg" class="w-100" alt="" srcset="">
+      </div>
+    </div>
+
+    <div class="card col-lg-6 col-md-6 content-card">
+      <div class="card-body">
+        <h2 class="card-heading">Stand out to the right audience</h2>
+        <p class="card-content">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and
+        extend your brand in digital places.</p>
+        <button class="btn card-content card-btn btn-2">LEARN MORE</button>
+      </div>
+    </div>
+
+    <div class="card col-lg-6 col-md-6 img-card">
+      <div class="card-body">
+        <h3 class="position-absolute translate-middle-x start-50 img-heading img-color1">Graphic Design</h3>
+        <p class="position-absolute translate-middle-x start-50 img-heading img-content img-color1">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’
+        attention.</p>
+        <img src="./images/desktop/image-graphic-design.jpg" class="w-100" alt="" srcset="">
+        
+      </div>
+    </div>
+
+    <div class="card col-lg-6 col-md-6 img-card">
+      <div class="card-body">
+        <h3 class="position-absolute translate-middle-x start-50 img-heading img-color2">Photography</h3>
+        <p class="position-absolute translate-middle-x start-50 img-heading img-content img-color2">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+        <img src="./images/desktop/image-photography.jpg" class="w-100" alt="" srcset="">
+      </div>
+    </div>
+    
+  </div>
+  
+  <!-- Client Testimonials -->
+  <div id = "client-testimonials" >
+
+    <h5 class="testimonials-heading">CLIENT TESTIMONIALS</h5>
+
+    <div class="row">
+      <div class="card col-lg-4 border-0 test-card">
+        <div class="card-body text-center">
+          <img src="./images/image-emily.jpg" class="img-fluid " alt="" srcset="">
+          <p class="testimonials-content">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+          <h5 class="client-name">Emily R.</h5>
+          <h6 class="client-desig">Marketing Director</h6>
+        </div>
+      </div>
+
+      <div class="card col-lg-4 border-0 test-card">
+        <div class="card-body text-center ">
+          <img src="./images/image-thomas.jpg" class="img-fluid " alt="" srcset="">
+          <p class="testimonials-content">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable
+          experience.
+          </p>
+          <h5 class="client-name">Thomas S.</h5>
+          <h6 class="client-desig">Chief Operating Officer</h6>
+        </div>
+      </div>
+
+      <div class="card col-lg-4 border-0 test-card">
+        <div class="card-body text-center">
+          <img src="./images/image-jennie.jpg" class="img-fluid" alt="" srcset="">
+          <p class="testimonials-content">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+          </p>
+          <h5 class="client-name">Jennie F.</h5>
+          <h6 class="client-desig">Business Owner</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- images -->
+  <div id="images">
+    <div class="row images-row">
+    
+      <div class="card col-lg-3 col-md-6 col-sm-6 img-card2">
+        <div class="card-body">
+          <img src="./images/desktop/image-gallery-milkbottles.jpg" class="img-random" alt="" srcset="">
+        </div>
+      </div>
+    
+      <div class="card col-lg-3 col-md-6 col-sm-6 img-card2">
+        <div class="card-body">
+          <img src="./images/desktop/image-gallery-orange.jpg" class="img-random" alt="" srcset="">
+        </div>
+      </div>
+    
+      <div class="card col-lg-3 col-md-6 col-sm-6 img-card2">
+        <div class="card-body">
+          <img src="./images/desktop/image-gallery-cone.jpg" class="img-random" alt="" srcset="">
+        </div>
+      </div>
+    
+      <div class="card col-lg-3 col-md-6 col-sm-6 img-card2">
+        <div class="card-body">
+          <img src="./images/desktop/image-gallery-sugarcubes.jpg" class="img-random" alt="" srcset="">
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <div id="footer">
+    <h3 class="footer-heading">sunnyside</h3>
+    <ul class="footer-list">
+      <li class="footer-list-item">About</li>
+      <li class="footer-list-item">Services</li>
+      <li class="footer-list-item">Projects</li>
+    </ul>
+    <img src="./images/icon-facebook.svg" alt="" srcset="" class="p-2">
+    <img src="./images/icon-instagram.svg" alt="" srcset="" class="p-2">
+    <img src="./images/icon-twitter.svg" alt="" class="p-2">
+    <img src="./images/icon-pinterest.svg" alt="" srcset="" class="p-2">
+
+    <div class="attribution pt-5">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Shalini Muskula</a>.
+    </div>
+  </div>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
