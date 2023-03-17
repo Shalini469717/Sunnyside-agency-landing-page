@@ -214,7 +214,7 @@ body{
 
 }
 
-@media (min-width:766px) and (max-width:1272px) {
+@media (min-width:767px) and (max-width:1272px) {
     .content-card {
         padding: 3%;
     }
